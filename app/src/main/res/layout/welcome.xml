@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2016 .all right reserved for Esfandune.ir & Mohammad Rahmani
+    salam
+    in source ba zahmate faravani tahiye va montasher shode
+    lotfan az enteshare source khoddari farmaeid.
+    in kar be lahaze ghanuni va shar'i gheire ghanuni mibashad
+    lotfan baraye hemayat az ma dustane barnamenevise khod ra be Esfandune.ir hedayat konid.
+    ba tashakor az shoma
+    MOhammad Rahmani
+   -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="54dp"
+        android:paddingLeft="6dp"
+        android:id="@+id/radiogroup"
+        android:layout_alignBottom="@+id/viewpager"
+        android:layout_centerHorizontal="true">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:clickable="false"
+            android:button="@drawable/radio"
+            android:id="@+id/radioButton5" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:padding="4dp"
+            android:button="@drawable/radio"
+            android:id="@+id/radioButton4" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:button="@drawable/radio"
+            android:padding="4dp"
+            android:clickable="false"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton3" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/radio"
+            android:padding="4dp"
+            android:clickable="false"
+            android:id="@+id/radioButton2" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/radio"
+            android:checked="true"
+            android:clickable="false"
+            android:padding="4dp"
+            android:id="@+id/radioButton" />
+    </RadioGroup>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/button_login"
+                android:background="?attr/selectableItemBackground"
+                android:id="@+id/button2"
+                fontPath="font.ttf"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+                android:layout_weight=".50" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/button_exit"
+                android:background="?attr/selectableItemBackground"
+                android:id="@+id/button"
+                fontPath="font.ttf"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+                android:layout_weight=".50" />
+        </LinearLayout>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmallInverse"
+            android:text="@string/term"
+            android:id="@+id/term"
+            fontPath="font.ttf"
+            android:layout_alignBottom="@+id/check"
+            android:layout_marginBottom="2dp"
+            android:layout_toLeftOf="@+id/check"
+            android:layout_toStartOf="@+id/check" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1px"
+            android:layout_marginTop="34dp"
+            android:background="#fafafa"
+            android:id="@+id/view1"
+            android:layout_below="@+id/term"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:layout_marginTop="34dp"
+            android:id="@+id/view2"
+            android:background="#fafafa"
+            android:layout_below="@+id/term"
+            android:layout_centerHorizontal="true"/>
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="16dp"
+        android:id="@+id/check"
+        android:layout_above="@+id/radiogroup"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+    </android.support.v7.widget.AppCompatCheckBox>
+
+
+</RelativeLayout>

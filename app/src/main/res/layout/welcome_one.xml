@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2016 .all right reserved for Esfandune.ir & Mohammad Rahmani
+    salam
+    in source ba zahmate faravani tahiye va montasher shode
+    lotfan az enteshare source khoddari farmaeid.
+    in kar be lahaze ghanuni va shar'i gheire ghanuni mibashad
+    lotfan baraye hemayat az ma dustane barnamenevise khod ra be Esfandune.ir hedayat konid.
+    ba tashakor az shoma
+    MOhammad Rahmani
+   -->
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_blue"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/intro1_title"
+        android:textColor="#fff"
+        android:id="@+id/t1"
+        android:textStyle="bold"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="36dp"
+        android:gravity="right"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t1"
+        android:id="@+id/t2"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        android:layout_margin="16dp"
+        android:layout_gravity="right"
+        android:layout_alignParentRight="true"
+        android:text="@string/intro1_text"
+        android:textAppearance="?android:attr/textAppearanceSmallInverse"/>
+
+
+    <ImageView
+        app:layout_widthPercent="95%"
+        app:layout_heightPercent="10%"
+        android:src="@drawable/welcome_1_dude_clouds"
+        android:id="@+id/imageView1"
+        android:layout_below="@+id/t2"
+        android:layout_marginTop="50dp"
+        android:visibility="invisible"
+        android:layout_centerHorizontal="true" />
+    <ImageView
+        app:layout_widthPercent="95%"
+        app:layout_heightPercent="60%"
+        android:src="@drawable/welcome_1_clouds"
+        android:id="@+id/imageView2"
+        android:layout_marginTop="70dp"
+        android:layout_below="@+id/t2"
+        android:visibility="invisible"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        app:layout_widthPercent="95%"
+        app:layout_heightPercent="45%"
+        android:src="@drawable/welcome_1_dude"
+        android:id="@+id/imageView3"
+        android:layout_marginTop="70dp"
+        android:layout_below="@+id/t2"
+        android:visibility="invisible"
+        android:layout_centerHorizontal="true" />
+
+
+
+
+
+</android.support.percent.PercentRelativeLayout>

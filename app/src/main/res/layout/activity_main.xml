@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="right"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Activities.MainActivity">
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/float5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:clickable="true"
+        android:tint="@color/common_google_signin_btn_text_dark_focused"
+        app:elevation="0dp"
+        app:fabSize="normal"
+        app:rippleColor="?attr/editTextColor"
+        app:srcCompat="@android:drawable/ic_menu_preferences" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/float7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/float5"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="8dp"
+        android:clickable="true"
+        app:fabSize="mini"
+        app:srcCompat="@android:drawable/ic_secure" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/float7"
+        android:layout_alignLeft="@+id/float7"
+        android:layout_alignStart="@+id/float7"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        android:tint="@color/common_google_signin_btn_text_dark_focused"
+        app:fabSize="mini"
+        app:srcCompat="@android:drawable/ic_menu_revert" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        style="@android:style/Widget.ImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageButton4"
+        android:layout_alignLeft="@+id/plugb"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/plugb"
+        android:layout_alignTop="@+id/imageButton4"
+        android:layout_marginRight="30dp"
+        android:clickable="false"
+        android:scaleType="fitCenter"
+        android:tint="@android:color/holo_red_light"
+        app:srcCompat="@mipmap/kettle"
+        tools:targetApi="ice_cream_sandwich" />
+
+    <ImageButton
+        android:id="@+id/plugb"
+        style="@android:style/Widget.ImageButton"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@+id/pluga"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/pluga"
+        android:layout_marginRight="30dp"
+        android:clickable="false"
+        android:scaleType="fitCenter"
+        android:tint="@android:color/holo_red_light"
+        app:srcCompat="@mipmap/lampiiiiiiii"
+        tools:targetApi="m" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        style="@android:style/Widget.ImageButton"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/pluga"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:clickable="false"
+        android:scaleType="fitCenter"
+        android:tint="@android:color/holo_red_light"
+        app:srcCompat="@mipmap/ferrrii"
+        tools:targetApi="ice_cream_sandwich" />
+
+    <ImageButton
+        android:id="@+id/pluga"
+        style="@android:style/Widget.ImageButton"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:adjustViewBounds="false"
+        android:clickable="false"
+        android:elevation="0dp"
+        android:scaleType="fitCenter"
+        android:tint="@android:color/holo_red_light"
+        app:srcCompat="@mipmap/lecplug"
+        tools:targetApi="ice_cream_sandwich" />
+
+    <ImageButton
+        android:id="@+id/plugebtn"
+        style="@android:style/Widget.ImageButton"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/imageButton4"
+        android:layout_alignStart="@+id/imageButton4"
+        android:layout_below="@id/imageButton4"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:clickable="false"
+        android:scaleType="fitCenter"
+        android:tint="@android:color/holo_red_light"
+        app:srcCompat="@mipmap/sardiiiiiii"
+        tools:targetApi="ice_cream_sandwich" />
+
+    <ImageButton
+        android:id="@+id/plugf"
+        style="@android:style/Widget.ImageButton"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_alignBottom="@+id/imageButton6"
+        android:layout_alignEnd="@+id/imageButton5"
+        android:layout_alignLeft="@+id/imageButton5"
+        android:layout_alignRight="@+id/imageButton5"
+        android:layout_alignStart="@+id/imageButton5"
+        android:layout_below="@+id/imageButton4"
+        android:layout_marginTop="20dp"
+        android:clickable="false"
+        android:scaleType="fitCenter"
+        android:tint="@android:color/holo_red_light"
+        app:srcCompat="@mipmap/ashiiiiiiii"
+        tools:ignore="UnknownId"
+        tools:targetApi="ice_cream_sandwich" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/plugebtn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/plugebtn"
+        android:layout_marginBottom="14dp"
+        android:layout_marginRight="40dp"
+        android:layout_toLeftOf="@+id/float5"
+        android:layout_toStartOf="@+id/float5"
+        android:switchTextAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"
+        android:text="Connect to Server"
+        android:textStyle="normal|bold"
+        android:trackTint="@android:color/holo_red_dark"
+        tools:targetApi="ice_cream_sandwich" />
+
+</RelativeLayout>
